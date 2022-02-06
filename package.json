@@ -7,7 +7,7 @@
   "scripts": {
     "sync": "git clone https://github.com/bahaduraly/414db.git public/414db",
     "start": "node index",
-    "deploy": "npm start && gh-pages -d build"
+    "deploy": "npm start && gh-pages -d index"
   },
   "author": "",
   "license": "ISC",
