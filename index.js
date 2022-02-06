@@ -7,10 +7,10 @@ class Server {
   }
   async start () {
     console.log("starting server..")
-    this.db = new Datastore({ filename: "./public/apebase/db", autoload: true });
+    this.db = new Datastore({ filename: "./public/414db/db", autoload: true });
     this.app.set('view engine', 'ejs');
     this.app.get("/ipfs/:cid", (req, res) => {
-      res.sendFile(__dirname + "/public/apebase/ipfs/" + req.params.cid)
+      res.sendFile(__dirname + "/public/414db/ipfs/" + req.params.cid)
     })
     this.app.use(express.static('public'))
     this.app.use(express.urlencoded({ extended: true }));

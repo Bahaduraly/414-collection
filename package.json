@@ -7,9 +7,9 @@
   "scripts": {
     "sync": "git clone https://github.com/bahaduraly/414db.git public/414db",
     "start": "node index",
-    "deploy": "npm run start && gh-pages -d views"
+    "deploy": "npm start"
   },
-  "author": "",
+  "author": "bahaduraly",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
