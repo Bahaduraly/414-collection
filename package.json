@@ -2,12 +2,11 @@
   "homepage": "https://bahaduraly.github.com/414-collection/",
   "name": "414-collection",
   "version": "0.0.1",
-  "description": "",
+  "description": "414 collection",
   "main": "index.js",
   "scripts": {
-    "sync": "git clone https://github.com/bahaduraly/414db.git public/414db",
-    "start": "node index",
-    "deploy": "npm start"
+    "sync": "git clone git@github.com:Bahaduraly/414db.git public/414db",
+    "start": "node index"
   },
   "author": "bahaduraly",
   "license": "ISC",
